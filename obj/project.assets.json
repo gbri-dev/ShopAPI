@@ -684,11 +684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\WebAPI\\Shop\\Shop.csproj",
+      "projectUniqueName": "C:\\temp\\Development\\Fundamentos do C#\\projetos\\webApi\\ShopAPI\\Shop.csproj",
       "projectName": "Shop",
-      "projectPath": "C:\\dev\\WebAPI\\Shop\\Shop.csproj",
+      "projectPath": "C:\\temp\\Development\\Fundamentos do C#\\projetos\\webApi\\ShopAPI\\Shop.csproj",
       "packagesPath": "C:\\Users\\gabriel.silva\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\WebAPI\\Shop\\obj\\",
+      "outputPath": "C:\\temp\\Development\\Fundamentos do C#\\projetos\\webApi\\ShopAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Componentes\\dotNet\\Components\\Offline Packages",
@@ -748,7 +748,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

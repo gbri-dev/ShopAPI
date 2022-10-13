@@ -74,7 +74,7 @@ public class CategoryController : ControllerBase
     }
 
     [HttpDelete]
-    [Route("")]
+    [Route("{id:int}")]
     public async Task<ActionResult<List<Category>>> Delete(int id, [FromServices] DataContext context)
     {
 
@@ -93,8 +93,6 @@ public class CategoryController : ControllerBase
             }
         }
         return NotFound(new { message = "Categoria não encontrada" });
-
-
     }
 
 

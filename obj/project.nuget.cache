@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4VIMKtf9QDfx+jxwkWBeTl0oYb913qwHqEetD32gvUNmtEhtC0vOhrnrqG4lNToqIOnLAnbC1xrW2vdixhxrmw==",
+  "dgSpecHash": "z2PFV6WGgMG08ln9Qhpn//JBVLlnvb+K1Zt4+mJsZq246PuwRrU9aj/p7GgnoA539dmvZFx3rZoM5nOwX4y47Q==",
   "success": true,
-  "projectFilePath": "C:\\dev\\WebAPI\\Shop\\Shop.csproj",
+  "projectFilePath": "C:\\temp\\Development\\Fundamentos do C#\\projetos\\webApi\\ShopAPI\\Shop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabriel.silva\\.nuget\\packages\\microsoft.entityframeworkcore\\3.0.0\\microsoft.entityframeworkcore.3.0.0.nupkg.sha512",
     "C:\\Users\\gabriel.silva\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.0.0\\microsoft.entityframeworkcore.abstractions.3.0.0.nupkg.sha512",

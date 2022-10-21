@@ -61,11 +61,11 @@ public class CategoryController : ControllerBase
         {
             context.Entry<Category>(model).State = EntityState.Modified;
             await context.SaveChangesAsync();
-            return Ok(model);
+            return Ok(new {message = "Atualizado com sucesso!"});
         }
         catch (DbUpdateConcurrencyException)
         {
-            return BadRequest(new { message = "Este registro já foi atualizado" });
+            return BadRequest(new { message = "Este registro já foi atualizado ou não existe!" });
         }
         catch (Exception)
         {
@@ -85,7 +85,7 @@ public class CategoryController : ControllerBase
             {
                 context.Categories.Remove(category);
                 await context.SaveChangesAsync();
-                return Ok(category);
+                return Ok(new {message = "Categoria removida com sucesso"});
             }
             catch (Exception)
             {
